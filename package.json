@@ -1,12 +1,12 @@
 {
   "name": "projeto-02",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon --watch *"
+    "dev": "nodemon --watch ."
   },
   "keywords": [],
   "author": "",
