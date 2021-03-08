@@ -20,7 +20,6 @@ app.use("/v1", indexRoutes);
 app.use("/v1", productsRoutes);
 app.use("/v1", userRoutes);
 
-//start
 app.listen(PORT, () => {
   console.log(
     `SERVER RUNNING ON http://localhost:${PORT}`,
