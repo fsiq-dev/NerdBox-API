@@ -1,3 +1,1 @@
-import './api/server.js';
-
-console.log(`hello world`);
+require('./api/server');
