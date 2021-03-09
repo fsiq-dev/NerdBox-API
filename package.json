@@ -9,6 +9,7 @@
     "start": "npm run create-db; npm run migrate-db; node index.js",
     "dev": "nodemon --watch .",
     "create-db": "./node_modules/.bin/sequelize db:create",
+    "create-mg": "./node_modules/.bin/sequelize migrate:create",
     "migrate-db": "./node_modules/.bin/sequelize db:migrate"
   },
   "dependencies": {
