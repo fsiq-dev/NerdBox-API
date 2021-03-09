@@ -16,7 +16,7 @@ module.exports = {
       email: {
         allowNUll: false,
         unique: true,
-        type: Sequelize.STRING(32)
+        type: Sequelize.STRING(100)
       },
       birth_date: {
         allowNUll: false,

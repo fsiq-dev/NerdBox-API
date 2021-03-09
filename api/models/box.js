@@ -1,6 +1,6 @@
 module.exports = (sequelize, DataTypes) => {
     const box = sequelize.define(
-        "box", {
+        'box', {
             id:{
                 type: DataTypes.INTEGER,
                 primaryKey: true,
@@ -21,7 +21,8 @@ module.exports = (sequelize, DataTypes) => {
                 allowNUll: false
               },
         },
-        {
+        { 
+            tableName: 'box',
             underscored: true,
             paranoid: true,
             timestamps: false

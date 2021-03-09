@@ -13,6 +13,10 @@ if (config.use_env_variable) {
 
 const modelUser= require('./user');
 db.user= modelUser(sequelize, Sequelize.DataTypes);
+const modelBox= require('./box');
+db.box= modelBox(sequelize, Sequelize.DataTypes);
+const modelProduct= require('./product');
+db.product= modelProduct(sequelize, Sequelize.DataTypes);
 
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
