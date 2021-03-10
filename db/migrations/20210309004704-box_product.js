@@ -8,16 +8,16 @@ module.exports = {
         references: {
           model: 'box',
           key: 'id'
-        },
-        idProduct: {
-          type: Sequelize.INTEGER,
-          references: {
-            model: 'product',
-            key:'id'
-          }
+        }
+      },
+      idProduct: {
+        type: Sequelize.INTEGER,
+        references: {
+          model: 'product',
+          key: "id"
         }
       }
-    })
+    });
   },
 
   down: async (queryInterface, Sequelize) => {
