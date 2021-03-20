@@ -2,7 +2,8 @@ const Router = require('express').Router()
 
 const { name, version } = require('../../package.json');
 
-const usersRoutev1 = require('./v1/users');
+const usersRouteV1 = require('./v1/users');
+const caixasRouteV1 = require('./v1/caixas')
 
 Router
     .route('/')
@@ -10,6 +11,7 @@ Router
         res.send(`${name} - Version:${version}`)
     })
 
-usersRoutev1(Router);
+usersRouteV1(Router);
+caixasRouteV1(Router);
 
 module.exports = Router;

@@ -22,7 +22,6 @@ module.exports = {
             }
         })
         if(!alreadyExistentUser) {
-
             users.create({name, email, birth_date});
             return res.status(200).send({Sucess: "Usuario Criado com Sucesso!"})
         }
