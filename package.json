@@ -1,6 +1,6 @@
 {
   "name": "projeto-02",
-  "version": "1.1.1",
+  "version": "0.1.0",
   "main": "index.js",
   "repository": "https://gitlab.com/fsiq/bootcamp-project-02-api",
   "author": "Felipe Siqueira <felipe.msiqueira@al.infnet.edu.br>",
@@ -9,7 +9,6 @@
     "start": "npm run create-db; npm run migrate-db; node index.js",
     "dev": "nodemon --watch .",
     "create-db": "./node_modules/.bin/sequelize db:create",
-    "create-mg": "./node_modules/.bin/sequelize migrate:create",
     "migrate-db": "./node_modules/.bin/sequelize db:migrate"
   },
   "dependencies": {
