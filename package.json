@@ -1,13 +1,13 @@
 {
-  "name": "projeto-02",
+  "name": "NerdBox-REST-API",
   "version": "0.1.0",
   "main": "index.js",
   "repository": "https://gitlab.com/fsiq/bootcamp-project-02-api",
   "author": "Felipe Siqueira <felipe.msiqueira@al.infnet.edu.br>",
   "license": "MIT",
   "scripts": {
-    "start": "npm run create-db; npm run migrate-db; node index.js",
-    "dev": "nodemon --watch .",
+    "start": "node",
+    "dev": "nodemon",
     "create-db": "./node_modules/.bin/sequelize db:create",
     "migrate-db": "./node_modules/.bin/sequelize db:migrate"
   },
