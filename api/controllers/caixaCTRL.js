@@ -43,10 +43,20 @@ module.exports = {
         if(!findExistentUser) {
             return res.status(400).send({Error: "Usuario não encontrado!"})
         }
-        
-        console.log(findExistentUser.name);
-        console.log(idCaixa);
         const subsNewUser = await userCaixas.create({id_user: findExistentUser.id, id_caixa: idCaixa })
         return res.status(200).send({Sucesso: "Assinado com sucesso!"})
+    },
+    deleteSubscription: async (req, res) => {
+        try {
+            await userCaixas.destroy({
+                where: {
+                    id: req.params.id
+                }
+            });
+            res.status(200).send({Sucesso: "Você cancelou sua assinatura."});
+        } catch (error) {
+            console.log(error);
+            res.status(500).send({Error: "Erro interno do servidor."});
+        }
     }
 }
