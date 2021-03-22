@@ -1,13 +1,13 @@
 # NerdBox - Back-End
 
 Backend para uma aplicação web, Conceito do sistema é um serviço de assinatura.
---> Segundo Projeto do Bootcamp Full Stack Developer do Infnet.
-    --> Tecnologias utilizadas
-        --> NodeJs
-        --> Express
-        --> Cors
-        --> Sequelize
-        --> Mysql
+[-->] Segundo Projeto do Bootcamp Full Stack Developer do Infnet.
+    [-->] Tecnologias utilizadas
+        [-->] NodeJs
+        [-->] Express
+        [-->] Cors
+        [-->] Sequelize
+        [-->] Mysql
 
 Desenvolvedores:
 - Felipe Siqueira [GitLab](https://gitlab.com/fsiq)
@@ -21,3 +21,14 @@ $ yarn start        # inicia o servidor
 ## Padrão de rotas
 
 - GET
+1. '/v1/', Rota raiz onde mosta o nome do Projeto e a sua Versão atual.
+2. '/v1/users', Rota que mostra todos os usuários já cadastrados. 
+3. '/v1/caixas', Rota que mostra todas as caixas existentes.
+4. '/v1/caixas/:id', Rota que mostra uma unica caixa referenciada ao seu id.
+
+- POST
+1. '/register', Rota que registra um novo usuário.
+2. '/caixas/:idCaixa/assinar', Rota para o usuário assinar uma caixa.
+
+- DELETE
+1. '/caixas/delete/:id', Rota que deleta uma assinatura em uma caixa.
