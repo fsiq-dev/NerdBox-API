@@ -15,7 +15,6 @@ Desenvolvedores:
 
 ```console
 $ yarn install      # instala as dependências
-$ yarn reset        # cria um banco de testes com as tabelas e dados fake
 $ yarn start        # inicia o servidor
 ```
 ## Padrão de rotas
