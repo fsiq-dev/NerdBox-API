@@ -1,13 +1,13 @@
 # NerdBox - Back-End
 
-- Backend para uma aplicação web, Conceito do sistema é um serviço de assinatura.
-- Segundo Projeto do Bootcamp Full Stack Developer do Infnet.
-    * --> Tecnologias utilizadas
-        * [x]NodeJs
-        * [x]Express
-        * [x]Cors
-        * [x]Sequelize
-        * [x]Mysql
+## Backend para uma aplicação web, Conceito do sistema é um serviço de assinatura.
+### Segundo Projeto do Bootcamp Full Stack Developer do Infnet.
+    * #### Tecnologias utilizadas
+        * [X] NodeJs
+        * [X] Express
+        * [X] Cors
+        * [X] Sequelize
+        * [X] Mysql
 
 Desenvolvedores:
 - Felipe Siqueira [GitLab](https://gitlab.com/fsiq)
