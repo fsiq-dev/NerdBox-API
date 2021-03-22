@@ -2,7 +2,7 @@
 
 - Backend para uma aplicação web, Conceito do sistema é um serviço de assinatura.
 - Segundo Projeto do Bootcamp Full Stack Developer do Infnet.
-    * - Tecnologias utilizadas
+    - Tecnologias utilizadas
         * [X] NodeJs
         * [X] Express
         * [X] Cors
