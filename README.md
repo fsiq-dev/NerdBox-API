@@ -15,6 +15,8 @@ Desenvolvedores:
 
 ```console
 $ yarn install      # instala as dependências
+$ yarn create-db    # cria o banco de dados
+$ yarn migrate-db   # cria as tabelas no banco
 $ yarn start        # inicia o servidor
 ```
 ## Padrão de rotas
