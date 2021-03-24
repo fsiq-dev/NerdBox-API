@@ -1,4 +1,4 @@
-const userCTRL = require('../../controllers/userCTRL')
+const userCTRL = require('../../controllers/userCTRL');
 
 const { getAllUsers, postRegisterUser} = userCTRL
 
@@ -8,6 +8,6 @@ module.exports= (Router) => {
         .get(getAllUsers)
 
     Router
-        .route('/register')
+        .route('/register/:idCaixa')
         .post(postRegisterUser)
 }
