@@ -1,6 +1,6 @@
 {
   "name": "NerdBox-REST-API",
-  "version": "0.5.0",
+  "version": "1.0.0",
   "main": "index.js",
   "repository": "https://gitlab.com/fsiq/bootcamp-project-02-api",
   "author": "Felipe Siqueira <felipe.msiqueira@al.infnet.edu.br> Suelen Batista <suelen.batista@al.infnet.edu.br>",
