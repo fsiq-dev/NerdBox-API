@@ -59,8 +59,7 @@ exports.autorizar = (bacon = '*') => {
   return async (req, res, next) => {
     
     const { token } = req.headers;
-    console.log(token);
-    
+      
     try{
       if (!token) {
         return res.status(403).send({
