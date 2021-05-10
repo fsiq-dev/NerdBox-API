@@ -6,7 +6,7 @@
   "author": "Felipe Siqueira <felipe.msiqueira@al.infnet.edu.br> Suelen Batista <suelen.batista@al.infnet.edu.br>",
   "license": "MIT",
   "scripts": {
-    "start": "node",
+    "start": "node index.js",
     "dev": "nodemon",
     "create-db": "./node_modules/.bin/sequelize db:create",
     "migrate-db": "./node_modules/.bin/sequelize db:migrate"
