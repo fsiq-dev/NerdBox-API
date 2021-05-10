@@ -38,6 +38,10 @@ module.exports = {
   },
   production: {
     uri: process.env.DATABASE_URL,
+    username: process.env.DB_USER,
+    password: process.env.DB_PASS,
+    database: process.env.DB_DATABASE,
+    host: process.env.DB_HOSTL,
     dialect: "postgres",
   },
 };
